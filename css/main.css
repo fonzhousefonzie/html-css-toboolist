@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #f6f8f9;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+header{
+    padding: 10px;
+    background-color: white;
+}
+
+header h1{
+    display: inline-block;
+    font-weight: 700;
+}
+
+header img{
+    vertical-align: top;
+}
+
+main{
+    background-color: white;
+    width: 900px;
+    margin: 40px auto;
+    padding: 10px 0;
+    border-radius: 8px;
+}
+
+.head{
+    border-bottom: 1px solid #D3D8DB;
+    padding: 0 40px;
+}
+
+.button{
+    padding: 5px 10px;
+    margin: 10px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.primary{
+    background-color: #46ADF1;
+    color: white;
+}
+
+.secondary{
+    border: 1px solid #D3D8DB;
+    color: #D3D8DB;
+}
+
+details{
+    margin: 40px;
+}
+
+summary{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+details p{
+    display: inline-block;
+}
+
+.green, .red{
+    display: inline-block;
+    padding: 0 6px;
+    border: 1px solid;
+    border-radius: 50%;
+    margin: 10px 10px 10px 0;
+}
+
+.green{
+    color: green;
+    border-color: green;
+}
+
+.red{
+    color: red;
+    border-color: red;
+}
+
+.colored-box{
+    border-radius: 12px;
+    font-size: 12px;
+    color: white;
+    padding: 5px 10px;
+}
+
+.editorial{
+    background-color: #45abe9;
+}
+
+.goals{
+    background-color: #9c72e4;
+}
+
+.recruiting{
+    background-color: #62c0a8;
+}
+
+.mobile{
+    background-color: #f29e33;
+}
+
+.website{
+    background-color: #d763a1;
+}
+
+.sales{
+    background-color: #b0c965;
+}
